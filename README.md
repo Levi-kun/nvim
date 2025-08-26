@@ -8,7 +8,9 @@ that I am a Neovim user. "  - Some guy, It's fucking me, I'm the guy. Like who e
 
 ---------------------
 
-`git clone https://www.github.com/Levi-kun/nvim`
+```bash
+git clone https://www.github.com/Levi-kun/nvim
+```
 
 past this into your .comfig/nvim folder!
 and you'll have the same shit that I do.
