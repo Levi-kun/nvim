@@ -3,7 +3,7 @@ vim.g.mapleader = " "
 require("lazy-config")
 require("plugin")
 require("mapping")
-
+require("help")
 -- some global stuff
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 -- Vim Basic Settings!
@@ -228,6 +228,7 @@ local function load_configs()
 	require("config.lua-line")
 	require("config.nvim-tree")
 	require("config.treesitter")
+	require("config.autocomplete")
 end
 
 load_configs()
