@@ -222,16 +222,5 @@ require("null-ls").setup({
                 end
         end,
 })
-require("mason-null-ls").setup({
-        ensure_installed = { "prettierd", "black", "stylua", "eslint_d", "ruff" },
-        handlers = {},
-        automatic_installation = true,
-})
-local function load_configs()
-        require("config.lua-line")
-        require("config.nvim-tree")
-        require("config.treesitter")
-        require("config.autocomplete")
-end
 
-load_configs()
+require("lazy").setup("plugins")
