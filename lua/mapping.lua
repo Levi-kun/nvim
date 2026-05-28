@@ -67,5 +67,6 @@ vim.keymap.set("n", "<leader>se", ts.emoji, { desc = "[S]earch [E]moji" })
 
 vim.keymap.set("t", "<leader>e", "<C-\\><C-n>")
 
+
 -- Let's quit nvim! ... no one quits nvim, forever
 vim.keymap.set("n", "<leader>aQ", ":quitall<CR>")
