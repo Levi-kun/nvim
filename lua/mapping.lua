@@ -11,6 +11,8 @@ vim.keymap.set("n", "<C-e>", function()
 	harpoon.ui:toggle_quick_menu(harpoon:list())
 end)
 
+vim.api.nvim_create_user_command('W', 'w', {})
+
 vim.keymap.set("n", "<leader>1", function()
 	harpoon:list():select(1)
 end)
